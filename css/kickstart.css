@@ -285,12 +285,23 @@ table {
   margin: 0 0 10px 0;
   text-align: left;
   border-collapse: collapse;
+  border-radius: 7px;
+}
+table tbody tr.alt {
+  background: #e5e5e5;
+  color: #000;
 }
 thead,
 tbody {
   margin: 0;
   padding: 0;
 }
+
+thead {
+  background-color: #001d4d;
+  color: #fff;
+}
+
 th,
 td {
   padding: 7px 10px;
@@ -298,6 +309,7 @@ td {
   border-bottom: 1px dotted #ddd;
   text-align: left;
 }
+
 thead th {
   font-size: 0.9em;
   padding: 3px 10px;
@@ -312,13 +324,13 @@ tbody tr.last td {
 table.striped {
 }
 table.striped tr.alt {
-  background: #f5f5f5;
+  background: #e5e5e5;
 }
 table.striped thead th {
   background: #fff;
 }
 table.striped tbody th {
-  background: #f5f5f5;
+  background: #fff;
   text-align: right;
   padding-right: 15px;
   border-right: 1px dotted #e5e5e5;
@@ -347,7 +359,7 @@ table.sortable thead th {
   border-right: 1px solid #ddd;
 }
 table.sortable thead th:hover {
-  background: #efefef;
+  background: #001d4d;
 }
 table.sortable span.arrow {
   border-style: solid;
