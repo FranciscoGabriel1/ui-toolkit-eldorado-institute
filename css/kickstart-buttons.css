@@ -425,3 +425,93 @@ a.button.link:hover {
   border: 0px solid transparent;
   background: #fff;
 }
+
+/*---------------------------------
+DEFAULT
+-----------------------------------*/
+button.default,
+a.btn.default,
+a.button.default,
+input[type="submit"].default,
+input[type="reset"].default,
+input[type="button"].default {
+  border: 1px solid transparent;
+  background: #ffb100;
+  color: #fff;
+}
+
+button.default:hover,
+a.btn.default:hover,
+a.button.default:hover {
+  border: 1px solid transparent;
+  background: #363e4d;
+  color: #ffb100;
+}
+
+/*---------------------------------
+DEFAULT-2
+-----------------------------------*/
+button.default-2,
+a.btn.default-2,
+a.button.default-2,
+input[type="submit"].default-2,
+input[type="reset"].default-2,
+input[type="button"].default-2 {
+  border: 1px solid transparent;
+  background: #fff;
+  color: #363e4d;
+  border: 1px solid #c4c4c4;
+}
+
+button.default-2:hover,
+a.btn.default-2:hover,
+a.button.default-2:hover {
+  border: 1px solid transparent;
+  background: #363e4d;
+  color: #ffb100;
+}
+
+/*---------------------------------
+Filter
+-----------------------------------*/
+button.filter,
+a.btn.filter,
+a.button.filter,
+input[type="submit"].filter,
+input[type="reset"].filter,
+input[type="button"].filter {
+  border: 1px solid transparent;
+  background: #fff;
+  color: #001d4d;
+  border: 1px solid #c4c4c4;
+}
+
+button.filter:hover,
+a.btn.filter:hover,
+a.button.filter:hover {
+  border: 1px solid transparent;
+  background: #363e4d;
+  color: #ffb100;
+}
+
+/*---------------------------------
+DASH
+-----------------------------------*/
+button.dash,
+a.btn.dash,
+a.button.dash,
+input[type="submit"].dash,
+input[type="reset"].dash,
+input[type="button"].dash {
+  border: 1px solid transparent;
+  background: #001d4d;
+  color: #fff;
+}
+
+button.dash:hover,
+a.btn.dash:hover,
+a.button.dash:hover {
+  border: 1px solid transparent;
+  background: #363e4d;
+  color: #ffb100;
+}
