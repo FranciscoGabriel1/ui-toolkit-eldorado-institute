@@ -285,7 +285,6 @@ table {
   margin: 0 0 10px 0;
   text-align: left;
   border-collapse: collapse;
-  border-radius: 7px;
 }
 table tbody tr.alt {
   background: #e5e5e5;
@@ -300,6 +299,7 @@ tbody {
 thead {
   background-color: #001d4d;
   color: #fff;
+  border-radius: 7px;
 }
 
 th,

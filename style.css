@@ -91,7 +91,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #000;
+  background: #363e4d;
   color: #fff;
   z-index: 1000;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .navbar span {
-  color: #86dc00;
+  color: #ffb100;
 }
 
 .navbar ul {
@@ -134,7 +134,7 @@ body {
 }
 
 .callout {
-  background: #4598ef; /*#86dc00;*/
+  background: #292841cd;
   padding: 3em 0;
   color: #fff;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);

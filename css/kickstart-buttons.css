@@ -443,7 +443,7 @@ input[type="button"].default {
 button.default:hover,
 a.btn.default:hover,
 a.button.default:hover {
-  border: 1px solid transparent;
+  border: 0.75px solid #ffb100;
   background: #363e4d;
   color: #ffb100;
 }
@@ -466,9 +466,9 @@ input[type="button"].default-2 {
 button.default-2:hover,
 a.btn.default-2:hover,
 a.button.default-2:hover {
-  border: 1px solid transparent;
   background: #363e4d;
   color: #ffb100;
+  border: 0.75px solid #ffb100;
 }
 
 /*---------------------------------
@@ -489,7 +489,7 @@ input[type="button"].filter {
 button.filter:hover,
 a.btn.filter:hover,
 a.button.filter:hover {
-  border: 1px solid transparent;
+  border: 0.75px solid #ffb100;
   background: #363e4d;
   color: #ffb100;
 }
@@ -511,7 +511,7 @@ input[type="button"].dash {
 button.dash:hover,
 a.btn.dash:hover,
 a.button.dash:hover {
-  border: 1px solid transparent;
+  border: 0.75px solid #ffb100;
   background: #363e4d;
   color: #ffb100;
 }
