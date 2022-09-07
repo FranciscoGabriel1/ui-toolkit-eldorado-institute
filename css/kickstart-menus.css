@@ -155,6 +155,7 @@
   background: #001d4d;
   z-index: 600;
   border-radius: 7px;
+  font-weight: 500;
 }
 
 .menu li {
