@@ -261,7 +261,19 @@
 &lt;/ul&gt;
 </pre>
 	</div>
-
+<!-- ===================================== 
+	NAVBAR
+===================================== -->
+<h3 id="lists">Navbar</h3>
+<div class="topnav" id="myTopnav">
+	<a href="#home" class="active">Home</a>
+	<a href="#news">News</a>
+	<a href="#contact">Contact</a>
+	<a href="#about">About</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <i class="fa fa-bars"></i>
+	</a>
+  </div>
 <!-- ===================================== 
 	LISTS 
 ===================================== -->
@@ -1556,14 +1568,18 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	
 	<label for="text5">Label with Hint <span>A-Z, 0-9</span></label>
 	<input id="text5" type="text" />
-	
+	<input id="text6" class="success" type="text"><i class="fa fa-search"></i></input>
 	<label for="text6" class="error">Text Field (Error)</label>
 	<input id="text6" class="error" type="text" />
 	<label for="text6" class="error" style="display:flex;align-items:center">
 		<span class="material-icons-outlined" style="font-size:16px; color:#ED1414;">
 			error_outline
 	    </span> <p>Sua senha está incorreta.<p>
-</label>
+    </label>
+
+
+	
+
 	</div>
 	
 	
@@ -1849,5 +1865,16 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
   })();
 
 </script>
+
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
 
 </body></html>

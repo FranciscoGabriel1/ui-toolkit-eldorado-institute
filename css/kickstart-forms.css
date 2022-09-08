@@ -290,6 +290,17 @@ select.error {
   border: 1px solid red;
 }
 
+label.success {
+  color: #13741d;
+}
+
+input.success {
+  border: 1px solid #13741d;
+}
+select.success {
+  border: 1px solid #13741d;
+}
+
 /*---------------------------------
 	NOTICES
 -----------------------------------*/
