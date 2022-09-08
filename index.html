@@ -8,7 +8,18 @@
 <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
 <link rel="stylesheet" type="text/css" href="style.css" media="all" />                          <!-- CUSTOM STYLES -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
+<script type="text/javascript" src="js/kickstart.js"></script> 
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+	.material-symbols-outlined {
+	  font-variation-settings:
+	  'FILL' 0,
+	  'wght' 400,
+	  'GRAD' 0,
+	  'opsz' 48
+	}
+	</style>
 </head><body>
 <!-- ===================================== END HEADER ===================================== -->
 <nav class="navbar">
@@ -23,7 +34,9 @@
 		<h1>UI Toolkit - <span>Instituto Eldorado</span></h1>
 		<h4>Ultra–Lean HTML5, CSS, & JS Building Blocks<br />for Rapid Website Production</h4>
 		<div class="col_3">
-		<i class="fa fa-mobile fa-4x"></i><br />
+		<span class="material-icons-outlined" style="font-size: 48px">
+			phone_android
+			</span><br />
 		Responsive
 		</div>
 		
@@ -43,11 +56,16 @@
 		</i>
 		</div>
 		<div class="clear"></div><br />
-		<a class="button red large" href="https://github.com/FranciscoGabriel1/ui-toolkit-eldorado-institute"><i class="fa fa-cloud-download"></i> Download (Github)</a> 
+		<a class="button red large" href="https://github.com/FranciscoGabriel1/ui-toolkit-eldorado-institute/archive/refs/heads/master.zip">
+			<i class="fa fa-cloud-download"></i>  Download (Github) .zip</a> 
 		<span style="white-space: nowrap;">
-		<a class="button filter large" href=""><i class="fa fa-twitter"></i></a>
-		<a class="button dash large" href="mailto:joshua@99lime.com"><i class="fa fa-envelope"></i></a></span><br />
-		<p>Downloaded over 91036 Times :)</p> 
+		<button class="small button filter" ><span class="material-icons-outlined">
+			filter_list
+			</span></button>
+		<button class="small button dash" ><span class="material-icons-outlined">
+			dashboard_customize
+			</span></button></span><br />
+		<p>Bruno Boni :)</p> 
 	</div>
 </div>
 
@@ -137,7 +155,7 @@
 	<button class="small button terciary-1"><i class="fa fa-plus-square"></i> .terciary-1</button><br /> 
 	<button class="medium button terciary-2"><i class="fa fa-play-circle"></i> .terciary-2</button><br />
 	<button class="large button terciary-3"><i class="fa fa-minus-square"></i> .terciary-3</button>
-	<button class="medium button default"><i class="fa fa-minus-square"></i> Registrar dispositivo</button>
+	<button class="medium button default"><span class="material-icons-outlined" style="font-size:16px">add</span> Registrar dispositivo</button>
 	<button class="medium button default"><i class="fa fa-minus-square"></i></button>
 	<button class="medium button default-2"><i class="fa fa-minus-square"></i> Registrar em lote</button>
 	<button class="medium button filter"><i class="fa fa-minus-square"></i> </button>
@@ -754,7 +772,7 @@
 	<button class="tooltip medium orange pill" data-content="#tooltipcontentID">Hover Over Me</button>&nbsp;
 	<button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Click Me</button>
 	<div class="tooltip-content" id="tooltipcontentID"><h5>HTML Content</h5>
-	<img src="http://placehold.it/180x150/4D99E0/ffffff.png&text=180x150" width="180" height="150" />
+	<img src="https://love.doghero.com.br/wp-content/uploads/2018/12/golden-retriever-1.png" width="180" height="150" />
 	<p>This is more HTML content. You can place any HTML in this tooltip.</p></div>
 	</div>
 	</div>
@@ -1471,8 +1489,8 @@ in hendrerit in vulputate velit esse molestie consequat.&lt;/p&gt;</pre>
 	<div class="col_8">
 	<ul class="slideshow">
 	<li><img src="https://as1.ftcdn.net/v2/jpg/03/13/11/42/1000_F_313114286_2aFhGPe2chtpSQEckjFOtcUhRnW4b4aT.jpg" width="550" height="350" /></li>
-	<li><img src="https://images.unsplash.com/flagged/photo-1575555201693-7cd442b8023f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9zJTIwYW5nZWxlc3xlbnwwfHwwfHw%3D&w=1000&q=80" width="550" height="350" /></li>
-	<li><img src="https://images6.alphacoders.com/105/1052781.jpg" width="550" height="350" /></li>
+	<li><img src="https://as1.ftcdn.net/v2/jpg/05/27/41/72/1000_F_527417284_yCz7EWquRbxWSzr2cwFqtSGmoKR2lv5M.jpg" width="550" height="350" /></li>
+	<li><img src="https://as1.ftcdn.net/v2/jpg/05/24/38/78/1000_F_524387879_SmQvd5gspXL3Opp7hukVUMv4AL5mYqje.jpg" width="550" height="350" /></li>
 	</ul>
 	</div>
 	
@@ -1541,7 +1559,13 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	
 	<label for="text6" class="error">Text Field (Error)</label>
 	<input id="text6" class="error" type="text" />
+	<label for="text6" class="error" style="display:flex;align-items:center">
+		<span class="material-icons-outlined" style="font-size:16px; color:#ED1414;">
+			error_outline
+	    </span> <p>Sua senha está incorreta.<p>
+</label>
 	</div>
+	
 	
 	<div class="col_4">
 	<label for="select1">Select Field</label>
@@ -1565,14 +1589,21 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	<input type="checkbox" id="check1" /> <label for="check1" class="inline">Checkbox Field</label><br />
 	<input type="checkbox" id="check2" /> <label for="check2" class="inline">Checkbox Field</label><br />
 	<input type="checkbox" id="check3" /> <label for="check3" class="inline">Checkbox Field</label>
+
 	</fieldset>
+	
+
+	
 	
 	<fieldset>
 	<legend>Radios</legend>
 	<input type="radio" name="radio" id="radio1" /> <label for="radio1" class="inline">Option1</label><br />
 	<input type="radio" name="radio" id="radio2" /> <label for="radio2" class="inline">Option1</label><br />
 	<input type="radio" name="radio" id="radio3" /> <label for="radio3" class="inline">Option1</label>
-	</fieldset>
+	
+</fieldset>
+
+
 	
 	<label for="file1">File Field</label>
 	<input id="file1" type="file" />
@@ -1771,8 +1802,10 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	<div class="grid">
 		<a class="button red large" href="http://www.99lime.com/downloads/"><i class="fa fa-download-cloud"></i> Download (Github)</a> 
 		<span style="white-space: nowrap;">
-		<a class="button filter large" href="https://twitter.com/htmlkickstart"><i class="fa fa-twitter"></i></a>
-		<a class="button dash large" href="mailto:joshua@99lime.com"><i class="fa fa-envelope"></i></a></span><br />
+		<button class="button filter large" ><span class="material-icons-outlined">
+			dashboard_customize
+			</span></button>
+		<button class="button dash large" ><i class="fa fa-envelope"></i></button></span><br />
 		<p>Downloaded over 91036 Times :)</p>
 	</div>
 </div>
@@ -1800,10 +1833,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 <!-- ===================================== START FOOTER ===================================== -->
 <div class="clear"></div>
 <div id="footer">
-&copy; Copyright 2014 All Rights Reserved. This website was built with 
-<a href="http://www.99lime.com">HTML KickStart</a> • 
-<a href="http://99lime.com/rss/">RSS</a> • 
-<a href="http://www.99lime.com/_bak2/">Joshua Gatcke</a>
+&copy; Copyright 2022 All Rights Reserved. This website was built with 
 </div>
 
 <script type="text/javascript">
