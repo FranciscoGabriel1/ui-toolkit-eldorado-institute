@@ -326,10 +326,23 @@
 		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
 		 <font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
 		
-		</pre></pre>
+		</pre></pre><br/><br/>
+	<h4>Add script to use navbar responsive (mobile)</h4>
+	<pre>
+		<font color="#434f54">&lt;</font><font color="#000000">script</font><font color="#434f54">&gt;</font>
+		 &nbsp;<font color="#000000">function</font> <font color="#000000">myFunction</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#000000">var</font> <font color="#000000">x</font> <font color="#434f54">=</font> <font color="#000000">document</font><font color="#434f54">.</font><font color="#000000">getElementById</font><font color="#000000">(</font><font color="#005c5f">&#34;myTopnav&#34;</font><font color="#000000">)</font><font color="#000000">;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">x</font><font color="#434f54">.</font><font color="#000000">className</font> <font color="#434f54">==</font><font color="#434f54">=</font> <font color="#005c5f">&#34;topnav&#34;</font><font color="#000000">)</font> <font color="#000000">{</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#000000">x</font><font color="#434f54">.</font><font color="#000000">className</font> <font color="#434f54">+=</font> <font color="#005c5f">&#34; responsive&#34;</font><font color="#000000">;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#000000">}</font> <font color="#5e6d03">else</font> <font color="#000000">{</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#000000">x</font><font color="#434f54">.</font><font color="#000000">className</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;topnav&#34;</font><font color="#000000">;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+		 &nbsp;<font color="#000000">}</font>
+		<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">script</font><font color="#434f54">&gt;</font>
+		
+		</pre>
 	</div>
 </div>
-
 
 <!-- ===================================== 
 	DROPDOWN
