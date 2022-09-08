@@ -331,9 +331,60 @@
 </div>
 
 
+<!-- ===================================== 
+	DROPDOWN
+===================================== -->
+<h3 id="lists">Menu dropdown</h3>
+
+<ul class="tabs">
+	<li><a href="#dropdown-example">Example</a></li>
+	</ul>
+
+  <div id="dropdown-example" class="tab-content">
+	<div class="col_11" >
+	<h4>Menu dropdown </h4>
+	<h2>Search/Filter Dropdown</h2>
+	<p>Click on the button to open the dropdown menu, and use the input field to search for a specific dropdown link.</p>
+	<div class="dropdown" style="margin-left:30%">
+	  <button onclick="myFunction()" class="primary">Dropdown</button>
+	  <div id="myDropdown" class="dropdown-content">
+		<input type="text" placeholder="Buscar..." id="myInput" onkeyup="filterFunction()">
+		<a href="#em">Eldorado - Manaus</a>
+		<a href="#ec">Eldorado - Campinas</a>
+		<a href="#ep">Eldorado - Porto Alegre</a>
+		<a href="#er">Eldorado - Rio</a>
+		<a href="#ef">Eldorado - Fortaleza</a>
+		<a href="#es">Eldorado - SP</a>
+	  </div>
+	</div>  
+
+	<h6>Code</h6>
+	<pre>
+		<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;dropdown&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;margin-left:30%&#34;</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">button</font> <font color="#000000">onclick</font><font color="#434f54">=</font><font color="#005c5f">&#34;myFunction()&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;primary&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Dropdown</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">button</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;myDropdown&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;dropdown-content&#34;</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#000000">placeholder</font><font color="#434f54">=</font><font color="#005c5f">&#34;Buscar...&#34;</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;myInput&#34;</font> <font color="#000000">onkeyup</font><font color="#434f54">=</font><font color="#005c5f">&#34;filterFunction()&#34;</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#em&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">Manaus</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#ec&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">Campinas</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#ep&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">Porto</font> <font color="#000000">Alegre</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#er&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">Rio</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#ef&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">Fortaleza</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">a</font> <font color="#000000">href</font><font color="#434f54">=</font><font color="#005c5f">&#34;#es&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Eldorado</font> <font color="#434f54">-</font> <font color="#000000">SP</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">a</font><font color="#434f54">&gt;</font>
+		 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+		 <font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+		
+		</pre>
+    </div>
 
 
 
+
+
+	
+
+
+
+</div>
 <!-- ===================================== 
 	SIDEBAR
 ===================================== -->
@@ -1681,11 +1732,11 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	
 	<label for="text5">Label with Hint <span>A-Z, 0-9</span></label>
 	<input id="text5" type="text" />
-	<input id="text6" class="success" type="text"><i class="fa fa-search"></i></input>
+	<input id="text6" class="success" type="text"/>
 	<label for="text6" class="error">Text Field (Error)</label>
 	<input id="text6" class="error" type="text" />
 	<label for="text6" class="error" style="display:flex;align-items:center">
-		<span class="material-icons-outlined" style="font-size:16px; color:#ED1414;">
+		<span class="material-icons-outlined" style="font-size:16px; color:#ED1414;margin-right:6px">
 			error_outline
 	    </span> <p>Sua senha está incorreta.<p>
     </label>
@@ -2007,6 +2058,30 @@ function toggleSidebar() {
   }
 }
 
-    </script>		
+    </script>	
+	
+	<script>
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		function filterFunction() {
+		  var input, filter, ul, li, a, i;
+		  input = document.getElementById("myInput");
+		  filter = input.value.toUpperCase();
+		  div = document.getElementById("myDropdown");
+		  a = div.getElementsByTagName("a");
+		  for (i = 0; i < a.length; i++) {
+			txtValue = a[i].textContent || a[i].innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  a[i].style.display = "";
+			} else {
+			  a[i].style.display = "none";
+			}
+		  }
+		}
+		</script>
 
 </body></html>
