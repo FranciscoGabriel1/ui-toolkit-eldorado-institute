@@ -285,6 +285,48 @@
 	</div>
 </div>
 
+
+
+
+
+<!-- ===================================== 
+	SIDEBAR
+===================================== -->
+<h3 id="lists">Sidebar</h3>
+
+<ul class="tabs">
+	<li><a href="#sidebar-example">Example</a></li>
+	</ul>
+
+  <div id="sidebar-example" class="tab-content">
+	<div class="col_11">
+	<h4>Sidebar default</h4>
+	
+	
+   
+	<div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+		<a href="#"><span><i class="material-icons">home</i><span class="icon-text">Home</span></a><br>
+		<a href="#"><span><i class="material-icons">smartphone</i><span class="icon-text">Dispositivos</span></a><br>
+		<a href="#"><span><i class="material-icons">group_work</i><span class="icon-text">Grupos</span></a><br>
+		<a href="#"><span><i class="material-icons">place</i><span class="icon-text">Localização</span></a><br>
+	  </div>
+	  
+	  <div id="main">
+		<h2>Open/Collapse Sidebar on Hover</h2>
+		<p>Hover over any part of the sidebar to open the it.</p>
+		<p>To close the sidebar, move your mouse out of the sidebar.</p>
+		<p>See the example on the left page.</p>
+	  </div>
+
+
+
+
+	</div>
+</div>
+
+
+
+
 <!-- ===================================== 
 	LISTS 
 ===================================== -->
@@ -1887,5 +1929,24 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	  }
 	}
 	</script>
+
+	<script>
+		var mini = true;
+
+function toggleSidebar() {
+  if (mini) {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    this.mini = false;
+  } else {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "85px";
+    document.getElementById("main").style.marginLeft = "85px";
+    this.mini = true;
+  }
+}
+
+    </script>		
 
 </body></html>
