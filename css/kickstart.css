@@ -912,3 +912,36 @@ main .sidebar {
   width: 100%;
   font-size: 18px;
 }
+
+/*icons material design sizes*/
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.material-symbols-outlined.md-18 {
+  font-size: 18px;
+}
+.material-symbols-outlined.md-24 {
+  font-size: 24px;
+}
+.material-symbols-outlined.md-32 {
+  font-size: 32px;
+}
+.material-symbols-outlined.md-36 {
+  font-size: 36px;
+}
+.material-symbols-outlined.md-48 {
+  font-size: 48px;
+}
+
+.icons-example {
+  display: block;
+  text-align: center;
+  padding: 3px;
+}
+
+.icons-example:hover {
+  background-color: #c4c4c4cb;
+  border-radius: 7px;
+}

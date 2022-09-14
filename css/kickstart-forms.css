@@ -304,7 +304,7 @@ input.success {
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 1em;
-  padding: 0px 0px 0px 34px;
+  padding: 3px 0px 0px 34px;
   width: 100%;
 }
 select.success {
