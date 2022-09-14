@@ -912,6 +912,16 @@ main .sidebar {
   border-radius: 7px 7px 7px 7px;
 }
 
+.card-intern {
+  border: 0.75px solid #c4c4c4;
+  max-width: 273px;
+  max-height: 251px;
+  text-align: center;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.6, 0.25);
+  padding-bottom: 3%;
+}
+
 .title {
   color: grey;
   font-size: 18px;
