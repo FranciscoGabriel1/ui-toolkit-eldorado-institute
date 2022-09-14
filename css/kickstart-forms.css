@@ -86,16 +86,17 @@ input {
   *display: inline;
   vertical-align: middle;
   width: auto;
+  height: 42px;
   zoom: 1;
   margin: 0;
   border: 1px solid #ccc;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 5px 0;
   text-indent: 5px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
-  background: #fff;
+  background: #ffffff;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -125,7 +126,7 @@ a.button:focus,
 select:focus,
 input[type="file"]:focus,
 input[type="password"]:focus {
-  border: 1px solid #363e4d;
+  border: 1px solid;
   outline: none;
 }
 
@@ -173,7 +174,8 @@ input[type="radio"] {
   margin: 0;
   padding: 0;
   border: 0;
-  background: none;
+  /* background: none; */
+  color: #13741d;
   vertical-align: center;
   *vertical-align: top;
 }
@@ -212,7 +214,7 @@ textarea {
   width: auto;
   height: 200px;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid #363e4d;
   padding: 5px;
   vertical-align: middle;
   font-family: inherit;
@@ -296,8 +298,22 @@ label.success {
 
 input.success {
   border: 1px solid #13741d;
+  box-sizing: border-box;
+  background-size: 18px;
+  background-image: url("https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/48/13741d/external-success-essentials-tanah-basah-basic-outline-tanah-basah.png/external-success-essentials-tanah-basah-basic-outline-tanah-basah.png");
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  padding: 0px 0px 0px 34px;
+  width: 100%;
 }
 select.success {
+  border: 1px solid #13741d;
+}
+
+.success:focus {
+  background-color: #fff;
+  border-radius: 7px 7px;
   border: 1px solid #13741d;
 }
 
@@ -351,4 +367,20 @@ select.success {
   color: inherit;
   margin-top: 0;
   left: auto;
+}
+
+.error-description-text {
+  margin-top: -1px;
+}
+
+.error-description-span {
+  font-size: 10px;
+  color: #ed1414;
+  margin-right: 6px;
+}
+.error-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  background-color: "#f00";
 }
