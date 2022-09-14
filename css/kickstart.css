@@ -886,12 +886,29 @@ main .sidebar {
   display: block;
 }
 /*card*/
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0.6, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  border-radius: 7px 7px 7px 7px;
+} */
+
+.card-indicator {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.6, 0.25);
+  max-width: 248px;
+  max-height: 144px;
+  margin: 0;
+  text-align: center;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.card-hub {
+  border: 0.75px solid #c4c4c4;
+  max-width: 103px;
+  max-height: 103px;
+  text-align: center;
   border-radius: 7px 7px 7px 7px;
 }
 
@@ -911,6 +928,30 @@ main .sidebar {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+}
+
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.margin-left-defaulf {
+  margin-left: 1rem;
+}
+
+.padding-left-defaulf {
+  padding-left: 1rem;
+}
+.padding-top-defaulf {
+  padding-top: 1rem;
+}
+
+.font-card-bold {
+  font-weight: bold;
+}
+.number-card {
+  font-size: 1.2rem;
 }
 
 /*icons material design sizes*/
