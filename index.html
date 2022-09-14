@@ -1789,7 +1789,7 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	<div id="form-example" class="tab-content">
 	<h4>Form.vertical</h4>
 	<form class="vertical">
-		<div class="col_5">
+	<div class="col_5">
 	<label for="text1">Text Field</label>
 	<input id="text1" type="text" />
 	
@@ -1946,30 +1946,62 @@ sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 	</div>
 	
 	<div id="form-textfield" class="tab-content">
-<pre>
-&lt;!-- Text Field --&gt;
-&lt;label for=&quot;text1&quot;&gt;Text Field&lt;/label&gt;
-&lt;input id=&quot;text1&quot; type=&quot;text&quot; /&gt;
-
-&lt;!-- Placeholder Text --&gt;
-&lt;label for=&quot;text2&quot;&gt;Placeholder&lt;/label&gt;
-&lt;input id=&quot;text2&quot; type=&quot;text&quot; placeholder=&quot;Placeholder Text&quot; /&gt;
-
-&lt;!-- Disabled Field --&gt;
-&lt;label for=&quot;text3&quot; class=&quot;disabled&quot;&gt;Disabled Field&lt;/label&gt;
-&lt;input id=&quot;text3&quot; type=&quot;text&quot; disabled=&quot;disabled&quot; /&gt;
-
-&lt;!-- Label with Right Hint --&gt;
-&lt;label for=&quot;text4&quot;&gt;Label with Right Hint &lt;span class=&quot;right&quot;&gt;A-Z, 0-9&lt;/span&gt;&lt;/label&gt;
-&lt;input id=&quot;text4&quot; type=&quot;text&quot; /&gt;
-
-&lt;!-- Label with Hint --&gt;
-&lt;label for=&quot;text5&quot;&gt;Label with Hint &lt;span&gt;A-Z, 0-9&lt;/span&gt;&lt;/label&gt;
-&lt;input id=&quot;text5&quot; type=&quot;text&quot; /&gt;
-
-&lt;!-- Text Field Error --&gt;
-&lt;label for=&quot;text6&quot; class=&quot;error&quot;&gt;Text Field (Error)&lt;/label&gt;
-&lt;input id=&quot;text6&quot; class=&quot;error&quot; type=&quot;text&quot; /&gt;</pre>
+		<pre>
+			<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;col_5&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text1&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Text</font> <font color="#000000">Field</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text1&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text2&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Placeholder</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text2&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#000000">placeholder</font><font color="#434f54">=</font><font color="#005c5f">&#34;Placeholder Text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text3&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;disabled&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Disabled</font> <font color="#000000">Field</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text3&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#000000">disabled</font><font color="#434f54">=</font><font color="#005c5f">&#34;disabled&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text4&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Label</font> <font color="#000000">with</font> <font color="#000000">Right</font> <font color="#000000">Hint</font> <font color="#434f54">&lt;</font><font color="#000000">span</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;right&#34;</font><font color="#434f54">&gt;</font><font color="#000000">A</font><font color="#434f54">-</font><font color="#000000">Z</font><font color="#434f54">,</font> <font color="#000000">0</font><font color="#434f54">-</font><font color="#000000">9</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">span</font><font color="#434f54">&gt;</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text4&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text5&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Label</font> <font color="#000000">with</font> <font color="#000000">Hint</font> <font color="#434f54">&lt;</font><font color="#000000">span</font><font color="#434f54">&gt;</font><font color="#000000">A</font><font color="#434f54">-</font><font color="#000000">Z</font><font color="#434f54">,</font> <font color="#000000">0</font><font color="#434f54">-</font><font color="#000000">9</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">span</font><font color="#434f54">&gt;</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text5&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text5&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Preenchimento</font> <font color="#000000">correto</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;success&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font><font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+			
+			 &nbsp;
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;col_5&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">h6</font><font color="#434f54">&gt;</font><font color="#000000">Avisos</font> <font color="#000000">de</font> <font color="#000000">erro</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">h6</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#434f54">&gt;</font><font color="#000000">Erro</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;display:flex;align-items:center;&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">span</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;material-icons-outlined&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;font-size:18px; color:#ED1414;margin-right:6px&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">error_outline</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">span</font><font color="#434f54">&gt;</font> <font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font><font color="#000000">O</font> <font color="#000000">preenchimento</font> <font color="#000000">desse</font> <font color="#000000">campo</font> <font color="#000000">é</font> <font color="#000000">obrigatório</font><font color="#434f54">.</font><font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+			
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;col_5&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#434f54">&gt;</font><font color="#000000">Campo</font> <font color="#000000">vazio</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;display:flex;align-items:center;&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">span</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;material-icons-outlined&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;font-size:18px; color:#ED1414;margin-right:6px&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">error_outline</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">span</font><font color="#434f54">&gt;</font> <font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font><font color="#000000">As</font> <font color="#000000">informações</font> <font color="#000000">preenchidas</font> <font color="#000000">estão</font> <font color="#000000">incorretas</font><font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+			
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#d35400">div</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;col_5&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font><font color="#434f54">&gt;</font><font color="#000000">Senha</font> <font color="#000000">incorreta</font><font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">input</font> <font color="#000000">id</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">type</font><font color="#434f54">=</font><font color="#005c5f">&#34;text&#34;</font> <font color="#434f54">&#47;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">label</font> <font color="#5e6d03">for</font><font color="#434f54">=</font><font color="#005c5f">&#34;text6&#34;</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;error&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;display:flex;align-items:center;&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#000000">span</font> <font color="#00979c">class</font><font color="#434f54">=</font><font color="#005c5f">&#34;material-icons-outlined&#34;</font> <font color="#000000">style</font><font color="#434f54">=</font><font color="#005c5f">&#34;font-size:18px; color:#ED1414;margin-right:6px&#34;</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">error_outline</font>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">span</font><font color="#434f54">&gt;</font> <font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font><font color="#000000">Sua</font> <font color="#000000">senha</font> <font color="#000000">está</font> <font color="#000000">incorreta</font><font color="#434f54">&lt;</font><font color="#000000">p</font><font color="#434f54">&gt;</font>
+			 &nbsp;&nbsp;&nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#000000">label</font><font color="#434f54">&gt;</font>
+			 &nbsp;<font color="#434f54">&lt;</font><font color="#434f54">&#47;</font><font color="#d35400">div</font><font color="#434f54">&gt;</font>
+			
+			</pre>
 	</div>
 	
 	<div id="form-select" class="tab-content">
