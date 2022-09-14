@@ -922,6 +922,26 @@ main .sidebar {
   padding-bottom: 3%;
 }
 
+.card-donut-chart {
+  border: 0.75px solid #c4c4c4;
+  max-width: 273px;
+  max-height: 290px;
+  text-align: center;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.6, 0.25);
+  padding-bottom: 3%;
+}
+
+.card-line-chart {
+  border: 0.75px solid #c4c4c4;
+  max-width: 446px;
+  max-height: 350px;
+  text-align: center;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.6, 0.25);
+  padding-bottom: 3%;
+}
+
 .title {
   color: grey;
   font-size: 18px;
@@ -995,4 +1015,17 @@ main .sidebar {
 .icons-example:hover {
   background-color: #c4c4c4cb;
   border-radius: 7px;
+}
+
+.chart-container-donut {
+  position: relative;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+.chart-container-line {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
